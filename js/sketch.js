@@ -9,14 +9,6 @@ var g2;
 var b1;
 var b2;
 
-// let font,
-	// fontsize = 132;
-
-// function preload() {
-	// Ensure the .ttf or .otf font stored in the assets directory
-	// is loaded before setup() and draw() are called
-	// font = loadFont("../assets/Kingthings Xander.ttf");
-// }
 
 function fWidth(i) {
 	return width / i;
@@ -25,9 +17,6 @@ function fHeight(i) {
 	return height / i;
 }
 
-// function typo() {
-	// text('word', fWidth(2), fHeight(2));
-// }
 
 function setup() {
 
@@ -36,9 +25,6 @@ function setup() {
 	angleMode(DEGREES);
 	noiseDetail(1);
 
-	// textFont(font);
-	// textSize(fontsize);
-	// textAlign(CENTER, CENTER);
 
 
 
@@ -100,7 +86,3 @@ function draw() {
 		ellipse(points[i].x, points[i].y, 1.5);
 	}
 }
-
-// function mouseClicked() {
-	// saveCanvas("flowfield", "png")
-// }

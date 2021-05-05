@@ -12,11 +12,11 @@ var b2;
 let font,
 	fontsize = 132;
 
-function preload() {
+// function preload() {
 	// Ensure the .ttf or .otf font stored in the assets directory
 	// is loaded before setup() and draw() are called
-	font = loadFont("../assets/Kingthings Xander.ttf");
-}
+	// font = loadFont("../assets/Kingthings Xander.ttf");
+// }
 
 function fWidth(i) {
 	return width / i;

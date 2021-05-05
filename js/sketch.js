@@ -49,7 +49,7 @@ function setup() {
 	b1 = random(255);
 	b2 = random(255);
 
-	mult = random(0.002, 0.001);
+	mult = random(0.202, 0.001);
 
 }
 

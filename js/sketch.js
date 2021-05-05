@@ -9,8 +9,8 @@ var g2;
 var b1;
 var b2;
 
-let font,
-	fontsize = 132;
+// let font,
+	// fontsize = 132;
 
 // function preload() {
 	// Ensure the .ttf or .otf font stored in the assets directory
@@ -25,9 +25,9 @@ function fHeight(i) {
 	return height / i;
 }
 
-function typo() {
-	text('word', fWidth(2), fHeight(2));
-}
+// function typo() {
+	// text('word', fWidth(2), fHeight(2));
+// }
 
 function setup() {
 
@@ -36,9 +36,9 @@ function setup() {
 	angleMode(DEGREES);
 	noiseDetail(1);
 
-	textFont(font);
-	textSize(fontsize);
-	textAlign(CENTER, CENTER);
+	// textFont(font);
+	// textSize(fontsize);
+	// textAlign(CENTER, CENTER);
 
 
 
@@ -101,6 +101,6 @@ function draw() {
 	}
 }
 
-function mouseClicked() {
-	saveCanvas("flowfield", "png")
-}
+// function mouseClicked() {
+	// saveCanvas("flowfield", "png")
+// }

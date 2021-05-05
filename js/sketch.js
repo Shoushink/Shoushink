@@ -86,3 +86,7 @@ function draw() {
 		ellipse(points[i].x, points[i].y, 1.5);
 	}
 }
+
+function mouseClicked() {
+	window.location.reload(1);
+}
